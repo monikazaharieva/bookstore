@@ -21,5 +21,22 @@ namespace BookStore.DL.InMemoryDb
                 }
             };
 
+        public static List<Book> Books
+            = new List<Book>()
+            {
+                new Book()
+                {
+                    Id = 1,
+                    Name = "Gosho",
+                    Description = "Gosho bio"
+                },
+                new Book()
+                {
+                    Id = 2,
+                    Name = "Ginka",
+                    Description = "Ginka bio"
+                }
+            };
+
     }
 }
